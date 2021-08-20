@@ -18,7 +18,7 @@ body .heading {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-image: url(../images/landscape2.jpg);
+  background-image: url(landscape2.jpg);
   background-size: 120%;
   background-repeat: no-repeat;
 }
