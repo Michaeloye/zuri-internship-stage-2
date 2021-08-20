@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(0, 1%, 14%);
+  color: hsl(0, 1%, 54%);
+  font-family: "Barlow Semi Condensed", sans-serif;
+  .heading {
+    margin: auto;
+    margin-top: 25px;
+    color: white;
+    border-radius: 10px;
+    width: 70%;
+    padding: 20px 40px;
+    font-size: 1rem;
+    display: flex;
+    background-image: url(../images/landscape2.jpg);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    h1 {
+      font-size: 1.7rem;
+      .aim {
+        color: rgb(201, 0, 0);
+      }
+    }
+  }
+  p.code {
+    text-align: center;
+    margin-top: 25px;
+    span {
+      color: rgba(255, 203, 60, 0.849);
+    }
+  }
+  p.introduction {
+    font-size: 1.9rem;
+    text-align: center;
+    span {
+      color: white;
+    }
+  }
+  div.imgProject {
+    text-align: center;
+    margin-top: 100px;
+    img.imgProject {
+      margin-left: auto;
+      height: 250px;
+    }
+  }
+  h3.project {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+  }
+  section.project {
+    margin: auto;
+    text-align: center;
+    width: 95%;
+    div.todo {
+      border-radius: 10px;
+      background-color: hsl(0, 1%, 54%);
+      color: hsl(0, 1%, 14%);
+      box-shadow: 2px 5px 10px hsl(0, 0%, 0%);
+      margin-top: 30px;
+      img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        height: 200px;
+        width: 100%;
+      }
+      h3 {
+        padding: 20px 30px 0 30px;
+        text-align: left;
+        a {
+          color: hsl(0, 1%, 14%);
+        }
+      }
+      p {
+        padding: 0 30px 20px 30px;
+        text-align: left;
+      }
+    }
+    div.rps {
+      border-radius: 10px;
+      background-color: hsl(0, 1%, 54%);
+      color: hsl(0, 1%, 14%);
+      box-shadow: 2px 5px 10px hsl(0, 0%, 0%);
+      margin-top: 30px;
+      img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        height: 200px;
+        width: 100%;
+      }
+      h3 {
+        padding: 20px 30px 0 30px;
+        text-align: left;
+        a {
+          color: hsl(0, 1%, 14%);
+        }
+      }
+      p {
+        padding: 0 30px 20px 30px;
+        text-align: left;
+      }
+    }
+    div.treasure {
+      border-radius: 10px;
+      background-color: hsl(0, 1%, 54%);
+      color: hsl(0, 1%, 14%);
+      box-shadow: 2px 5px 10px hsl(0, 0%, 0%);
+      margin-top: 30px;
+      img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        height: 200px;
+        width: 100%;
+      }
+      h3 {
+        padding: 20px 30px 0 30px;
+        text-align: left;
+        a {
+          color: hsl(0, 1%, 14%);
+        }
+      }
+      p {
+        padding: 0 30px 20px 30px;
+        text-align: left;
+      }
+    }
+    div.calculator {
+      border-radius: 10px;
+      background-color: hsl(0, 1%, 54%);
+      color: hsl(0, 1%, 14%);
+      box-shadow: 2px 5px 10px hsl(0, 0%, 0%);
+      margin-top: 30px;
+      img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        height: 200px;
+        width: 100%;
+      }
+      h3 {
+        padding: 20px 30px 0 30px;
+        text-align: left;
+        a {
+          color: hsl(0, 1%, 14%);
+        }
+      }
+      p {
+        padding: 0 30px 20px 30px;
+        text-align: left;
+      }
+    }
+  }
+  div.skill {
+    margin-top: 100px;
+    img {
+      margin: auto;
+      height: 200px;
+    }
+    h2 {
+      text-align: center;
+      color: white;
+    }
+    p {
+      margin-top: 20px;
+    }
+  }
+  footer {
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgb(22, 22, 22);
+    height: 21rem;
+    p {
+      padding-top: 50px;
+      a {
+        color: hsl(0, 1%, 54%);
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 905px) {
+  body {
+    font-size: 20px;
+    .heading {
+      margin: auto;
+      margin-top: 25px;
+      color: white;
+      border-radius: 10px;
+      width: 70%;
+      height: 200px;
+      padding: 20px 40px;
+      font-size: 1rem;
+      display: flex;
+      background-image: url(../images/landscape2.jpg);
+      background-size: 120%;
+      background-repeat: no-repeat;
+      h1 {
+        font-size: 30px;
+        align-self: center;
+        .aim {
+          color: rgb(201, 0, 0);
+        }
+      }
+    }
+    h3.project {
+      margin-top: 100px;
+    }
+    section.project {
+      margin-top: 50px;
+      display: flex;
+      justify-content: space-between;
+      align-content: space-between;
+    }
+    div.todo {
+      border-radius: 10px;
+      background-color: hsl(0, 1%, 54%);
+      color: hsl(0, 1%, 14%);
+      box-shadow: 2px 5px 10px hsl(0, 0%, 0%);
+      margin-top: 30px;
+      width: 300px;
+      margin-left: 5px;
+
+      h3 {
+        padding: 20px 30px 0 30px;
+        text-align: left;
+      }
+      p {
+        padding: 0 30px 20px 30px;
+        text-align: left;
+      }
+    }
+    div.rps {
+      border-radius: 10px;
+      background-color: hsl(0, 1%, 54%);
+      color: hsl(0, 1%, 14%);
+      box-shadow: 2px 5px 10px hsl(0, 0%, 0%);
+      margin-top: 30px;
+      width: 300px;
+      margin-left: 5px;
+
+      img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        height: 200px;
+        width: 100%;
+      }
+      h3 {
+        padding: 20px 30px 0 30px;
+        text-align: left;
+      }
+      p {
+        padding: 0 30px 20px 30px;
+        text-align: left;
+      }
+    }
+    div.treasure {
+      border-radius: 10px;
+      background-color: hsl(0, 1%, 54%);
+      color: hsl(0, 1%, 14%);
+      box-shadow: 2px 5px 10px hsl(0, 0%, 0%);
+      margin-top: 30px;
+      width: 300px;
+      margin-left: 5px;
+
+      h3 {
+        padding: 20px 30px 0 30px;
+        text-align: left;
+      }
+      p {
+        padding: 0 30px 20px 30px;
+        text-align: left;
+      }
+    }
+    div.calculator {
+      border-radius: 10px;
+      background-color: hsl(0, 1%, 54%);
+      color: hsl(0, 1%, 14%);
+      box-shadow: 2px 5px 10px hsl(0, 0%, 0%);
+      margin-top: 30px;
+      width: 300px;
+      margin-left: 5px;
+
+      h3 {
+        padding: 20px 30px 0 30px;
+        text-align: left;
+      }
+      p {
+        padding: 0 30px 20px 30px;
+        text-align: left;
+      }
+    }
+    div.skill {
+      position: relative;
+      margin-bottom: 100px;
+      img {
+        position: absolute;
+        top: 20%;
+        left: 55%;
+        height: 200px;
+      }
+    }
+    footer {
+      img {
+        margin-top: 50px;
+      }
+    }
+  }
+} ;

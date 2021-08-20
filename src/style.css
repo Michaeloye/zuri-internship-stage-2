@@ -1,0 +1,363 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #242323;
+  color: #8b8989;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+body .heading {
+  margin: auto;
+  margin-top: 25px;
+  color: white;
+  border-radius: 10px;
+  width: 70%;
+  padding: 20px 40px;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url(../images/landscape2.jpg);
+  background-size: 120%;
+  background-repeat: no-repeat;
+}
+
+body .heading h1 {
+  font-size: 1.7rem;
+}
+
+body .heading h1 .aim {
+  color: #c90000;
+}
+
+body p.code {
+  text-align: center;
+  margin-top: 25px;
+}
+
+body p.code span {
+  color: rgba(255, 203, 60, 0.849);
+}
+
+body p.introduction {
+  font-size: 1.9rem;
+  text-align: center;
+}
+
+body p.introduction span {
+  color: white;
+}
+
+body div.imgProject {
+  text-align: center;
+  margin-top: 100px;
+}
+
+body div.imgProject img.imgProject {
+  margin-left: auto;
+  height: 250px;
+}
+
+body h3.project {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+}
+
+body section.project {
+  margin: auto;
+  text-align: center;
+  width: 95%;
+}
+
+body section.project div.todo {
+  border-radius: 10px;
+  background-color: #8b8989;
+  color: #242323;
+  -webkit-box-shadow: 2px 5px 10px black;
+          box-shadow: 2px 5px 10px black;
+  margin-top: 30px;
+}
+
+body section.project div.todo img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 200px;
+  width: 100%;
+}
+
+body section.project div.todo h3 {
+  padding: 20px 30px 0 30px;
+  text-align: left;
+}
+
+body section.project div.todo h3 a {
+  color: #242323;
+}
+
+body section.project div.todo p {
+  padding: 0 30px 20px 30px;
+  text-align: left;
+}
+
+body section.project div.rps {
+  border-radius: 10px;
+  background-color: #8b8989;
+  color: #242323;
+  -webkit-box-shadow: 2px 5px 10px black;
+          box-shadow: 2px 5px 10px black;
+  margin-top: 30px;
+}
+
+body section.project div.rps img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 200px;
+  width: 100%;
+}
+
+body section.project div.rps h3 {
+  padding: 20px 30px 0 30px;
+  text-align: left;
+}
+
+body section.project div.rps h3 a {
+  color: #242323;
+}
+
+body section.project div.rps p {
+  padding: 0 30px 20px 30px;
+  text-align: left;
+}
+
+body section.project div.treasure {
+  border-radius: 10px;
+  background-color: #8b8989;
+  color: #242323;
+  -webkit-box-shadow: 2px 5px 10px black;
+          box-shadow: 2px 5px 10px black;
+  margin-top: 30px;
+}
+
+body section.project div.treasure img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 200px;
+  width: 100%;
+}
+
+body section.project div.treasure h3 {
+  padding: 20px 30px 0 30px;
+  text-align: left;
+}
+
+body section.project div.treasure h3 a {
+  color: #242323;
+}
+
+body section.project div.treasure p {
+  padding: 0 30px 20px 30px;
+  text-align: left;
+}
+
+body section.project div.calculator {
+  border-radius: 10px;
+  background-color: #8b8989;
+  color: #242323;
+  -webkit-box-shadow: 2px 5px 10px black;
+          box-shadow: 2px 5px 10px black;
+  margin-top: 30px;
+}
+
+body section.project div.calculator img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 200px;
+  width: 100%;
+}
+
+body section.project div.calculator h3 {
+  padding: 20px 30px 0 30px;
+  text-align: left;
+}
+
+body section.project div.calculator h3 a {
+  color: #242323;
+}
+
+body section.project div.calculator p {
+  padding: 0 30px 20px 30px;
+  text-align: left;
+}
+
+body div.skill {
+  margin-top: 100px;
+}
+
+body div.skill img {
+  margin: auto;
+  height: 200px;
+}
+
+body div.skill h2 {
+  text-align: center;
+  color: white;
+}
+
+body div.skill p {
+  margin-top: 20px;
+}
+
+body footer {
+  margin-top: 50px;
+  text-align: center;
+  background-color: #161616;
+  height: 21rem;
+}
+
+body footer p {
+  padding-top: 50px;
+}
+
+body footer p a {
+  color: #8b8989;
+}
+
+@media screen and (min-width: 905px) {
+  body {
+    font-size: 20px;
+  }
+  body .heading {
+    margin: auto;
+    margin-top: 25px;
+    color: white;
+    border-radius: 10px;
+    width: 70%;
+    height: 200px;
+    padding: 20px 40px;
+    font-size: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-image: url(../images/landscape2.jpg);
+    background-size: 120%;
+    background-repeat: no-repeat;
+  }
+  body .heading h1 {
+    font-size: 30px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  body .heading h1 .aim {
+    color: #c90000;
+  }
+  body h3.project {
+    margin-top: 100px;
+  }
+  body section.project {
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-line-pack: justify;
+        align-content: space-between;
+  }
+  body div.todo {
+    border-radius: 10px;
+    background-color: #8b8989;
+    color: #242323;
+    -webkit-box-shadow: 2px 5px 10px black;
+            box-shadow: 2px 5px 10px black;
+    margin-top: 30px;
+    width: 300px;
+    margin-left: 5px;
+  }
+  body div.todo h3 {
+    padding: 20px 30px 0 30px;
+    text-align: left;
+  }
+  body div.todo p {
+    padding: 0 30px 20px 30px;
+    text-align: left;
+  }
+  body div.rps {
+    border-radius: 10px;
+    background-color: #8b8989;
+    color: #242323;
+    -webkit-box-shadow: 2px 5px 10px black;
+            box-shadow: 2px 5px 10px black;
+    margin-top: 30px;
+    width: 300px;
+    margin-left: 5px;
+  }
+  body div.rps img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 200px;
+    width: 100%;
+  }
+  body div.rps h3 {
+    padding: 20px 30px 0 30px;
+    text-align: left;
+  }
+  body div.rps p {
+    padding: 0 30px 20px 30px;
+    text-align: left;
+  }
+  body div.treasure {
+    border-radius: 10px;
+    background-color: #8b8989;
+    color: #242323;
+    -webkit-box-shadow: 2px 5px 10px black;
+            box-shadow: 2px 5px 10px black;
+    margin-top: 30px;
+    width: 300px;
+    margin-left: 5px;
+  }
+  body div.treasure h3 {
+    padding: 20px 30px 0 30px;
+    text-align: left;
+  }
+  body div.treasure p {
+    padding: 0 30px 20px 30px;
+    text-align: left;
+  }
+  body div.calculator {
+    border-radius: 10px;
+    background-color: #8b8989;
+    color: #242323;
+    -webkit-box-shadow: 2px 5px 10px black;
+            box-shadow: 2px 5px 10px black;
+    margin-top: 30px;
+    width: 300px;
+    margin-left: 5px;
+  }
+  body div.calculator h3 {
+    padding: 20px 30px 0 30px;
+    text-align: left;
+  }
+  body div.calculator p {
+    padding: 0 30px 20px 30px;
+    text-align: left;
+  }
+  body div.skill {
+    position: relative;
+    margin-bottom: 100px;
+  }
+  body div.skill img {
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    height: 200px;
+  }
+  body footer img {
+    margin-top: 50px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
